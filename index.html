@@ -1,25 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Aina's Website</title>
-<style>
-body {
-  font-family: Arial;
-  background: #fff0f5;
-  text-align: center;
-  padding: 30px;
-}
-h1 { color: #d63384; }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aina | Personal Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff8fa;
+      color: #493a40;
+      text-align: center;
+    }
+    nav {
+      background: #f0d5df;
+      padding: 20px;
+    }
+    nav a {
+      color: #493a40;
+      text-decoration: none;
+      margin: 15px;
+      font-weight: bold;
+    }
+    main {
+      padding: 70px 20px;
+    }
+    h1 {
+      color: #a45d78;
+      font-size: 40px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.7;
+    }
+    .card {
+      background: white;
+      padding: 30px;
+      max-width: 650px;
+      margin: 30px auto;
+      border-radius: 18px;
+      box-shadow: 0 4px 15px #eadde2;
+    }
+    @media (max-width: 600px) {
+      nav a {
+        display: inline-block;
+        margin: 8px;
+      }
+      h1 { font-size: 30px; }
+    }
+  </style>
 </head>
 <body>
-<h1>Hello! I'm Aina</h1>
-<p>I study at KIMEP University.</p>
-<h2>About Me</h2>
-<p>I like business, management and traveling.</p>
-<h2>My Skills</h2>
-<p>Communication, teamwork and Microsoft Excel.</p>
-<h2>Contact</h2>
-<p>My KIMEP University email</p>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="projects.html">Projects</a>
+  </nav>
+
+  <main>
+    <h1>Hello, I'm Aina!</h1>
+    <p>Welcome to my personal website.</p>
+
+    <div class="card">
+      <h2>About My Website</h2>
+      <p>
+        I am a student at KIMEP University.
+        I am interested in business, management,
+        and traveling.
+      </p>
+      <p>
+        On this website, you can learn more
+        about me, my skills, and my university
+        projects.
+      </p>
+    </div>
+  </main>
 </body>
 </html>
