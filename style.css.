@@ -7,7 +7,7 @@ body {
 }
 
 nav {
-  background: #f0d5df;
+  background: #e8bfd0;
   padding: 20px;
 }
 
